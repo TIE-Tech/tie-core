@@ -4,22 +4,22 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/tie-core/core/nodekey"
-	"github.com/tie-core/core/nodekey/local"
-	"github.com/tie-core/metrics"
-	params2 "github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
+	"github.com/TIE-Tech/tie-core/core/nodekey/local"
+	"github.com/TIE-Tech/tie-core/metrics"
+	params2 "github.com/TIE-Tech/tie-core/params"
 	"io/ioutil"
 	"os"
 	"sync"
 	"testing"
 	"time"
 
+	"github.com/TIE-Tech/tie-core/common/common"
+	"github.com/TIE-Tech/tie-core/common/tests"
 	"github.com/libp2p/go-libp2p-core/crypto"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/common/common"
-	"github.com/tie-core/common/tests"
 )
 
 const (

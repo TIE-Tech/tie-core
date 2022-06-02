@@ -11,10 +11,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tie-core/cmd/helper"
-	"github.com/tie-core/cmd/loadbot/generator"
-	"github.com/tie-core/common/common"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/cmd/helper"
+	"github.com/TIE-Tech/tie-core/cmd/loadbot/generator"
+	"github.com/TIE-Tech/tie-core/common/common"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/umbracle/ethgo"
 )
 

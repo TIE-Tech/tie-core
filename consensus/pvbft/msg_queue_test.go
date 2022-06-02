@@ -3,8 +3,8 @@ package pvbft
 import (
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/consensus/pvbft/proto"
 )
 
 func mockQueueMsg(id string, state MsgType, view *proto.View) *msgTask {

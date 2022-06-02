@@ -1,7 +1,7 @@
 package leveldb
 
 import (
-	"github.com/tie-core/storage"
+	"github.com/TIE-Tech/tie-core/storage"
 	"io/ioutil"
 	"os"
 	"testing"

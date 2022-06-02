@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tie-core/syncer/proto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/syncer/proto"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 func getHeaders(clt proto.V1Client, req *proto.GetHeadersRequest) ([]*types.Header, error) {

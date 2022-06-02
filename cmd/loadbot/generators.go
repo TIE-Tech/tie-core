@@ -2,9 +2,9 @@ package loadbot
 
 import (
 	"fmt"
-	"github.com/tie-core/common/crypto"
-	txpoolOp "github.com/tie-core/txpool/proto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	txpoolOp "github.com/TIE-Tech/tie-core/txpool/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/umbracle/ethgo/jsonrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

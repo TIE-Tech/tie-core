@@ -5,7 +5,7 @@ import (
 	"crypto/ecdsa"
 	"crypto/elliptic"
 	"errors"
-	tcrypto "github.com/tie-core/common/crypto"
+	tcrypto "github.com/TIE-Tech/tie-core/common/crypto"
 	"hash"
 	"math/big"
 )

@@ -4,7 +4,7 @@ import (
 	"container/heap"
 	"sync"
 
-	"github.com/tie-core/consensus/pvbft/proto"
+	"github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
 )
 
 // msgQueue defines the structure that holds message queues for different IBFT states

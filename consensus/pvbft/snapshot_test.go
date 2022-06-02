@@ -2,17 +2,17 @@ package pvbft
 
 import (
 	"crypto/ecdsa"
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/params"
 	"io/ioutil"
 	"os"
 	"strconv"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/consensus"
+	"github.com/TIE-Tech/tie-core/core"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/consensus"
-	"github.com/tie-core/core"
-	"github.com/tie-core/types"
 )
 
 // initIbftMechanism initializes the IBFT mechanism for unit tests

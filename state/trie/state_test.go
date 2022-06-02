@@ -3,7 +3,7 @@ package itrie
 import (
 	"testing"
 
-	"github.com/tie-core/state"
+	"github.com/TIE-Tech/tie-core/state"
 )
 
 func TestState(t *testing.T) {

@@ -1,6 +1,6 @@
 package txpool
 
-import "github.com/tie-core/types"
+import "github.com/TIE-Tech/tie-core/types"
 
 /* QUERY methods */
 // Used to query the pool for specific state info.

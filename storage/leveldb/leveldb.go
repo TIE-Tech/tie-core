@@ -2,7 +2,7 @@ package leveldb
 
 import (
 	"fmt"
-	"github.com/tie-core/storage"
+	"github.com/TIE-Tech/tie-core/storage"
 
 	"github.com/syndtr/goleveldb/leveldb"
 )

@@ -3,13 +3,13 @@ package local
 import (
 	"errors"
 	"fmt"
-	"github.com/tie-core/core/nodekey"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"sync"
 
-	"github.com/tie-core/common/common"
+	"github.com/TIE-Tech/tie-core/common/common"
 )
 
 // LocalSecretsManager is a SecretsManager that

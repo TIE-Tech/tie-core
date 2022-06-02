@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	testproto "github.com/tie-core/p2p/proto"
+	testproto "github.com/TIE-Tech/tie-core/p2p/proto"
 	"testing"
 	"time"
 )

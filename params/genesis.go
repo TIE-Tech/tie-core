@@ -7,9 +7,9 @@ import (
 	"io/ioutil"
 	"math/big"
 
+	"github.com/TIE-Tech/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/hashicorp/go-multierror"
-	"github.com/tie-core/common/hex"
-	"github.com/tie-core/types"
 )
 
 var (

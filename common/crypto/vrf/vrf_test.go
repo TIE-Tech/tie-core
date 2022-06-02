@@ -1,8 +1,8 @@
 package vrf
 
 import (
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/types"
 	"strconv"
 	"testing"
 )

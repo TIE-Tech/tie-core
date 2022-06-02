@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tie-core/common/tests"
+	"github.com/TIE-Tech/tie-core/common/tests"
 
 	"github.com/libp2p/go-libp2p-core/crypto"
 	"github.com/libp2p/go-libp2p-core/peer"

@@ -1,8 +1,8 @@
 package memory
 
 import (
-	"github.com/tie-core/common/hex"
-	"github.com/tie-core/storage"
+	"github.com/TIE-Tech/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/storage"
 )
 
 // NewMemoryStorage creates the new storage reference with inmemory

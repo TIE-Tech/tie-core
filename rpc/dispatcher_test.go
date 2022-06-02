@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/types"
 )
 
 var (

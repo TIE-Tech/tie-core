@@ -3,7 +3,7 @@ package progress
 import (
 	"sync"
 
-	"github.com/tie-core/core"
+	"github.com/TIE-Tech/tie-core/core"
 )
 
 type ChainSyncType string

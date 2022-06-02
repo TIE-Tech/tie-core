@@ -2,8 +2,8 @@ package execute
 
 import (
 	"errors"
-	"github.com/tie-core/params"
-	"github.com/tie-core/tievm/evm"
+	"github.com/TIE-Tech/tie-core/params"
+	"github.com/TIE-Tech/tie-core/tievm/evm"
 )
 
 var _ evm.Runtime = &EVM{}

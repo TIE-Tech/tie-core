@@ -7,9 +7,9 @@ import (
 	"io"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/server/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/server/proto"
-	"github.com/tie-core/types"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 )

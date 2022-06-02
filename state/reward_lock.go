@@ -1,7 +1,7 @@
 package state
 
 import (
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 	"sync"
 )
 

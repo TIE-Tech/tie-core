@@ -1,8 +1,8 @@
 package state
 
 import (
-	"github.com/tie-core/types"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
+	"github.com/TIE-Tech/tie-core/types"
 	"math/big"
 	"sync"
 )

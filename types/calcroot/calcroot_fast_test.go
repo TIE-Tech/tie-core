@@ -3,7 +3,7 @@ package calcroot
 import (
 	"bytes"
 	"crypto/rand"
-	"github.com/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
 	"math/big"
 	"testing"
 )

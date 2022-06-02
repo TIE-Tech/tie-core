@@ -2,10 +2,10 @@ package evm
 
 import (
 	"errors"
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/params"
 	"math/big"
 
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 // TxContext is the context of the transaction

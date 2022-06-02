@@ -1,7 +1,7 @@
 package precompiled
 
 import (
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/params"
 	"math/big"
 
 	"math"

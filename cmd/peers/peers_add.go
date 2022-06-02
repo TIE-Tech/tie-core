@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tie-core/cmd/helper"
-	helperFlags "github.com/tie-core/common/flags"
-	"github.com/tie-core/server/proto"
+	"github.com/TIE-Tech/tie-core/cmd/helper"
+	helperFlags "github.com/TIE-Tech/tie-core/common/flags"
+	"github.com/TIE-Tech/tie-core/server/proto"
 )
 
 // PeersAdd is the PeersAdd to start the sever

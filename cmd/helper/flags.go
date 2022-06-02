@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 	"google.golang.org/grpc/credentials/insecure"
 
 	"github.com/mitchellh/cli"

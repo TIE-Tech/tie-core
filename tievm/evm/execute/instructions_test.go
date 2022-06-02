@@ -1,14 +1,14 @@
 package execute
 
 import (
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/params"
 	"math/big"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/tievm/evm"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/tievm/evm"
-	"github.com/tie-core/types"
 )
 
 var (

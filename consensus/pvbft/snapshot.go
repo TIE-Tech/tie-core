@@ -3,8 +3,8 @@ package pvbft
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/tie-core/common/crypto"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
+	"github.com/TIE-Tech/tie-core/common/crypto"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -12,8 +12,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/tie-core/consensus/pvbft/proto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 // setupSnapshot sets up the snapshot store for the IBFT object

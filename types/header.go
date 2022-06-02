@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/common/hex"
 )
 
 // Header represents a block header in the Ethereum blockchain.

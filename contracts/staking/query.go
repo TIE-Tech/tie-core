@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"strings"
 
+	"github.com/TIE-Tech/tie-core/contracts/abis"
+	"github.com/TIE-Tech/tie-core/tievm/evm"
+	"github.com/TIE-Tech/tie-core/types"
 	ethabi "github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/tie-core/contracts/abis"
-	"github.com/tie-core/tievm/evm"
-	"github.com/tie-core/types"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/abi"
 )

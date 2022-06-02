@@ -1,8 +1,8 @@
 package consensus
 
 import (
-	"github.com/tie-core/types"
-	"github.com/tie-core/types/calcroot"
+	"github.com/TIE-Tech/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types/calcroot"
 )
 
 // BuildBlockParams are parameters passed into the BuildBlock common method

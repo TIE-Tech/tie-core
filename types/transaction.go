@@ -2,7 +2,7 @@ package types
 
 import (
 	"encoding/hex"
-	"github.com/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
 	"math/big"
 	"strings"
 	"sync/atomic"

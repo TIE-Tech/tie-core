@@ -2,15 +2,15 @@ package execute
 
 import (
 	"errors"
-	"github.com/tie-core/params"
-	"github.com/tie-core/tievm/evm"
+	"github.com/TIE-Tech/tie-core/params"
+	"github.com/TIE-Tech/tie-core/tievm/evm"
 	"math/big"
 	"strings"
 
 	"sync"
 
-	"github.com/tie-core/common/hex"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 var statePool = sync.Pool{

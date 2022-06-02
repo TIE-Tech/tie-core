@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/tie-core/archive"
-	"github.com/tie-core/cmd/helper"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/archive"
+	"github.com/TIE-Tech/tie-core/cmd/helper"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 type BackupCommand struct {

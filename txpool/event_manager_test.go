@@ -1,9 +1,9 @@
 package txpool
 
 import (
+	"github.com/TIE-Tech/tie-core/txpool/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/txpool/proto"
-	"github.com/tie-core/types"
 	"sync"
 	"testing"
 	"time"

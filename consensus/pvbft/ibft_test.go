@@ -2,19 +2,19 @@ package pvbft
 
 import (
 	"errors"
-	"github.com/tie-core/metrics"
-	"github.com/tie-core/syncer"
+	"github.com/TIE-Tech/tie-core/metrics"
+	"github.com/TIE-Tech/tie-core/syncer"
 	"testing"
 	"time"
 
+	"github.com/TIE-Tech/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/common/progress"
+	"github.com/TIE-Tech/tie-core/consensus"
+	"github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
+	"github.com/TIE-Tech/tie-core/core"
+	"github.com/TIE-Tech/tie-core/state"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/common/hex"
-	"github.com/tie-core/common/progress"
-	"github.com/tie-core/consensus"
-	"github.com/tie-core/consensus/pvbft/proto"
-	"github.com/tie-core/core"
-	"github.com/tie-core/state"
-	"github.com/tie-core/types"
 	any "google.golang.org/protobuf/types/known/anypb"
 )
 

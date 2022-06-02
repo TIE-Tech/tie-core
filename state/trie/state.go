@@ -6,8 +6,8 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/tie-core/state"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/state"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 type State struct {

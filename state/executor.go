@@ -3,14 +3,14 @@ package state
 import (
 	"errors"
 	"fmt"
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/params"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/params"
 	"math"
 	"math/big"
 
-	"github.com/tie-core/tievm/evm"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/tievm/evm"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 const (

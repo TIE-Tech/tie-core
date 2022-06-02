@@ -2,7 +2,7 @@ package calcroot
 
 import (
 	"encoding/binary"
-	"github.com/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
 	"sync"
 )
 

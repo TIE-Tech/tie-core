@@ -2,10 +2,10 @@ package server
 
 import (
 	"fmt"
-	"github.com/tie-core/cmd/helper"
-	"github.com/tie-core/server"
-	"github.com/tie-core/types"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
+	"github.com/TIE-Tech/tie-core/cmd/helper"
+	"github.com/TIE-Tech/tie-core/server"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 // ServerCommand is the command to start the sever

@@ -2,8 +2,8 @@ package p2p
 
 import (
 	"context"
+	"github.com/TIE-Tech/tie-core/params"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/params"
 	"testing"
 	"time"
 )

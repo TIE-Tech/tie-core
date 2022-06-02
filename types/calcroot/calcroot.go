@@ -1,9 +1,9 @@
 package calcroot
 
 import (
-	"github.com/tie-core/common/crypto/keccak"
-	itrie "github.com/tie-core/state/trie"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
+	itrie "github.com/TIE-Tech/tie-core/state/trie"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/umbracle/fastrlp"
 )
 

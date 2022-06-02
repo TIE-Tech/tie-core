@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/tie-core/consensus/pvbft/proto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 type IbftState uint32

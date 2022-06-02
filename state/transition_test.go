@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/tievm/evm"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/tievm/evm"
-	"github.com/tie-core/types"
 )
 
 func newTestTransition(preState map[types.Address]*PreState) *Transition {

@@ -3,19 +3,19 @@ package txpool
 import (
 	"errors"
 	"fmt"
-	"github.com/tie-core/metrics"
-	"github.com/tie-core/params"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
+	"github.com/TIE-Tech/tie-core/metrics"
+	"github.com/TIE-Tech/tie-core/params"
 	"math/big"
 
 	"github.com/golang/protobuf/ptypes/any"
 	"google.golang.org/grpc"
 
-	"github.com/tie-core/core"
-	"github.com/tie-core/p2p"
-	"github.com/tie-core/state"
-	"github.com/tie-core/txpool/proto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/core"
+	"github.com/TIE-Tech/tie-core/p2p"
+	"github.com/TIE-Tech/tie-core/state"
+	"github.com/TIE-Tech/tie-core/txpool/proto"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 const (

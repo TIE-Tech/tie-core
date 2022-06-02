@@ -3,9 +3,9 @@ package pvbft
 import (
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/consensus/pvbft/proto"
-	"github.com/tie-core/types"
 )
 
 func TestSign_Sealer(t *testing.T) {

@@ -3,8 +3,8 @@ package syncer
 import (
 	"math/big"
 
-	"github.com/tie-core/core"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/core"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 // Blockchain is the interface required by the syncer to connect to the blockchain

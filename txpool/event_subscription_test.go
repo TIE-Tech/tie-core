@@ -3,10 +3,10 @@ package txpool
 import (
 	"context"
 	"crypto/rand"
+	"github.com/TIE-Tech/tie-core/common/tests"
+	"github.com/TIE-Tech/tie-core/txpool/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/common/tests"
-	"github.com/tie-core/txpool/proto"
-	"github.com/tie-core/types"
 	"math/big"
 	mathRand "math/rand"
 	"sync"

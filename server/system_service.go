@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/TIE-Tech/tie-core/core"
+	"github.com/TIE-Tech/tie-core/p2p"
+	"github.com/TIE-Tech/tie-core/server/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/libp2p/go-libp2p-core/peer"
-	"github.com/tie-core/core"
-	"github.com/tie-core/p2p"
-	"github.com/tie-core/server/proto"
-	"github.com/tie-core/types"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

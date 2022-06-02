@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/contracts/abis"
+	"github.com/TIE-Tech/tie-core/tievm/evm"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/contracts/abis"
-	"github.com/tie-core/tievm/evm"
-	"github.com/tie-core/types"
 )
 
 var (

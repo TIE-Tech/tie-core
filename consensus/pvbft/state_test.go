@@ -3,11 +3,11 @@ package pvbft
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/consensus/pvbft/proto"
 )
 
 func TestState_FaultyNodes(t *testing.T) {

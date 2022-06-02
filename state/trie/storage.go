@@ -3,9 +3,9 @@ package itrie
 import (
 	"fmt"
 
+	"github.com/TIE-Tech/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/syndtr/goleveldb/leveldb"
-	"github.com/tie-core/common/hex"
-	"github.com/tie-core/types"
 	"github.com/umbracle/fastrlp"
 )
 

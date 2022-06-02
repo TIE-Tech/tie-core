@@ -2,7 +2,7 @@ package p2p
 
 import (
 	"context"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
 	"reflect"
 
 	pubsub "github.com/libp2p/go-libp2p-pubsub"

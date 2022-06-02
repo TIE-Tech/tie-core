@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tie-core/cmd/helper"
-	ibftOp "github.com/tie-core/consensus/pvbft/proto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/cmd/helper"
+	ibftOp "github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 // IbftPropose is the command to propose a candidate and

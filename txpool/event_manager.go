@@ -1,10 +1,10 @@
 package txpool
 
 import (
+	"github.com/TIE-Tech/go-logger"
+	"github.com/TIE-Tech/tie-core/txpool/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/google/uuid"
-	"github.com/tie-core/txpool/proto"
-	"github.com/tie-core/types"
-	"github.com/tietemp/go-logger"
 	"sync"
 	"sync/atomic"
 )

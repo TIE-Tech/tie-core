@@ -3,21 +3,21 @@ package blockchain
 import (
 	"errors"
 	"fmt"
-	"github.com/tie-core/params"
-	"github.com/tie-core/storage"
-	"github.com/tie-core/storage/leveldb"
-	"github.com/tie-core/storage/memory"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
+	"github.com/TIE-Tech/tie-core/params"
+	"github.com/TIE-Tech/tie-core/storage"
+	"github.com/TIE-Tech/tie-core/storage/leveldb"
+	"github.com/TIE-Tech/tie-core/storage/memory"
 	"math/big"
 	"path/filepath"
 	"sync"
 	"sync/atomic"
 
+	"github.com/TIE-Tech/tie-core/common/common"
+	"github.com/TIE-Tech/tie-core/state"
+	"github.com/TIE-Tech/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types/calcroot"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/tie-core/common/common"
-	"github.com/tie-core/state"
-	"github.com/tie-core/types"
-	"github.com/tie-core/types/calcroot"
 )
 
 const (

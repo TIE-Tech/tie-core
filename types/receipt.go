@@ -3,11 +3,11 @@ package types
 import (
 	"database/sql/driver"
 	"errors"
-	"github.com/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
 
 	goHex "encoding/hex"
 
-	"github.com/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/common/hex"
 )
 
 type ReceiptStatus uint64

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 func TestExtraEncoding(t *testing.T) {

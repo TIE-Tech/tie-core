@@ -3,7 +3,7 @@ package storage
 import (
 	"math/big"
 
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 // Storage is a generic blockchain storage

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/common/hex"
 )
 
 type TestCase struct {

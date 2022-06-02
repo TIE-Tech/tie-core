@@ -1,7 +1,7 @@
 package generator
 
 import (
-	"github.com/tie-core/state"
+	"github.com/TIE-Tech/tie-core/state"
 	"sync"
 )
 

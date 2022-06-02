@@ -5,16 +5,16 @@ import (
 	"crypto/rand"
 	"errors"
 	"fmt"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
 	"math/big"
 	"sync"
 	"time"
 
+	"github.com/TIE-Tech/tie-core/p2p/grpc"
+	"github.com/TIE-Tech/tie-core/p2p/proto"
 	"github.com/libp2p/go-libp2p-core/peer"
 	peerstore "github.com/libp2p/go-libp2p-core/peerstore"
 	kb "github.com/libp2p/go-libp2p-kbucket"
-	"github.com/tie-core/p2p/grpc"
-	"github.com/tie-core/p2p/proto"
 	rawGrpc "google.golang.org/grpc"
 )
 

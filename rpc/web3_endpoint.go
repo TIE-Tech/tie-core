@@ -2,10 +2,10 @@ package rpc
 
 import (
 	"fmt"
-	"github.com/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
 
-	"github.com/tie-core/common/hex"
-	"github.com/tie-core/version"
+	"github.com/TIE-Tech/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/version"
 )
 
 // Web3 is the web3 jsonrpc endpoint

@@ -1,11 +1,11 @@
 package server
 
 import (
-	"github.com/tie-core/consensus"
-	"github.com/tie-core/consensus/pvbft"
-	"github.com/tie-core/core/nodekey"
-	"github.com/tie-core/core/nodekey/hashicorpvault"
-	"github.com/tie-core/core/nodekey/local"
+	"github.com/TIE-Tech/tie-core/consensus"
+	"github.com/TIE-Tech/tie-core/consensus/pvbft"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
+	"github.com/TIE-Tech/tie-core/core/nodekey/hashicorpvault"
+	"github.com/TIE-Tech/tie-core/core/nodekey/local"
 )
 
 var consensusBackends = map[string]consensus.Factory{

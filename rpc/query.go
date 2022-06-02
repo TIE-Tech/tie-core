@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 // LogFilter is a filter for logs

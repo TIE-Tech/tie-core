@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/TIE-Tech/tie-core/p2p/grpc"
+	"github.com/TIE-Tech/tie-core/syncer/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/libp2p/go-libp2p-core/peer"
-	"github.com/tie-core/p2p/grpc"
-	"github.com/tie-core/syncer/proto"
-	"github.com/tie-core/types"
 	any "google.golang.org/protobuf/types/known/anypb"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )

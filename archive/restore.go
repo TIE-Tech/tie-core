@@ -7,10 +7,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/tie-core/common/common"
-	"github.com/tie-core/common/progress"
-	"github.com/tie-core/core"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/common/common"
+	"github.com/TIE-Tech/tie-core/common/progress"
+	"github.com/TIE-Tech/tie-core/core"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 type blockchainInterface interface {

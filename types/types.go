@@ -4,11 +4,11 @@ import (
 	"database/sql/driver"
 	"errors"
 	"fmt"
-	"github.com/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
 	"strings"
 	"unicode"
 
-	"github.com/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/common/hex"
 )
 
 var ZeroAddress = Address{}

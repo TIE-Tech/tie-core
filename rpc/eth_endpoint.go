@@ -3,15 +3,15 @@ package rpc
 import (
 	"errors"
 	"fmt"
-	"github.com/tie-core/params"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
+	"github.com/TIE-Tech/tie-core/params"
 	"math/big"
 
-	"github.com/tie-core/common/hex"
-	"github.com/tie-core/common/progress"
-	"github.com/tie-core/state"
-	"github.com/tie-core/tievm/evm"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/common/progress"
+	"github.com/TIE-Tech/tie-core/state"
+	"github.com/TIE-Tech/tie-core/tievm/evm"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/umbracle/fastrlp"
 )
 

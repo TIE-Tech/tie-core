@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
 	"github.com/umbracle/fastrlp"
 )
 

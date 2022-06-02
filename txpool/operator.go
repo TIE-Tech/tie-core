@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tie-core/txpool/proto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/txpool/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

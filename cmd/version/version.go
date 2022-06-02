@@ -1,8 +1,8 @@
 package version
 
 import (
-	"github.com/tie-core/cmd/helper"
-	"github.com/tie-core/version"
+	"github.com/TIE-Tech/tie-core/cmd/helper"
+	"github.com/TIE-Tech/tie-core/version"
 )
 
 // VersionCommand is the command to show the version of the agent

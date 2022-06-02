@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/TIE-Tech/tie-core/common/tests"
+	"github.com/TIE-Tech/tie-core/core"
+	"github.com/TIE-Tech/tie-core/p2p"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/common/tests"
-	"github.com/tie-core/core"
-	"github.com/tie-core/p2p"
-	"github.com/tie-core/types"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 var addr1 = types.StringToAddress("1")

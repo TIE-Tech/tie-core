@@ -4,17 +4,17 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/core/nodekey"
-	"github.com/tie-core/core/nodekey/hashicorpvault"
-	"github.com/tie-core/core/nodekey/local"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
+	"github.com/TIE-Tech/tie-core/core/nodekey/hashicorpvault"
+	"github.com/TIE-Tech/tie-core/core/nodekey/local"
 	"path/filepath"
 
+	"github.com/TIE-Tech/tie-core/cmd/helper"
+	"github.com/TIE-Tech/tie-core/common/common"
+	"github.com/TIE-Tech/tie-core/p2p"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/libp2p/go-libp2p-core/peer"
-	"github.com/tie-core/cmd/helper"
-	"github.com/tie-core/common/common"
-	"github.com/tie-core/p2p"
-	"github.com/tie-core/types"
 )
 
 // SecretsInit is the command to query the snapshot

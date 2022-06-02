@@ -2,10 +2,10 @@ package precompiled
 
 import (
 	"encoding/binary"
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/params"
 
-	"github.com/tie-core/tievm/evm"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/tievm/evm"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 var _ evm.Runtime = &Precompiled{}

@@ -3,16 +3,16 @@ package p2p
 import (
 	"context"
 	"errors"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
 	"sync"
 	"sync/atomic"
 
 	rawGrpc "google.golang.org/grpc"
 
+	"github.com/TIE-Tech/tie-core/p2p/grpc"
+	"github.com/TIE-Tech/tie-core/p2p/proto"
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/libp2p/go-libp2p-core/peer"
-	"github.com/tie-core/p2p/grpc"
-	"github.com/tie-core/p2p/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

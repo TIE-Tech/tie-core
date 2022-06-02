@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/state"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/state"
-	"github.com/tie-core/types"
 )
 
 func TestEth_DecodeTxn(t *testing.T) {

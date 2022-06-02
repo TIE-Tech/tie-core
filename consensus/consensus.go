@@ -2,17 +2,17 @@ package consensus
 
 import (
 	"context"
-	"github.com/tie-core/core/nodekey"
-	"github.com/tie-core/metrics"
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
+	"github.com/TIE-Tech/tie-core/metrics"
+	"github.com/TIE-Tech/tie-core/params"
 	"log"
 
-	"github.com/tie-core/common/progress"
-	"github.com/tie-core/core"
-	"github.com/tie-core/p2p"
-	"github.com/tie-core/state"
-	"github.com/tie-core/txpool"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/common/progress"
+	"github.com/TIE-Tech/tie-core/core"
+	"github.com/TIE-Tech/tie-core/p2p"
+	"github.com/TIE-Tech/tie-core/state"
+	"github.com/TIE-Tech/tie-core/txpool"
+	"github.com/TIE-Tech/tie-core/types"
 	"google.golang.org/grpc"
 )
 

@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	"github.com/tie-core/common/tests"
+	"github.com/TIE-Tech/tie-core/common/tests"
 	"net"
 	"testing"
 )

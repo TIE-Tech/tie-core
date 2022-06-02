@@ -2,13 +2,13 @@ package params
 
 import (
 	"encoding/json"
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/consensus/pvbft"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/consensus/pvbft"
 	"math/big"
 	"reflect"
 	"testing"
 
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 var emptyAddr types.Address

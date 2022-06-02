@@ -7,13 +7,13 @@ import (
 	"crypto/rand"
 	"errors"
 	"fmt"
-	"github.com/tie-core/core/nodekey"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
 	"math/big"
 
+	"github.com/TIE-Tech/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/common/keystore"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/btcsuite/btcd/btcec"
-	"github.com/tie-core/common/hex"
-	"github.com/tie-core/common/keystore"
-	"github.com/tie-core/types"
 	"golang.org/x/crypto/sha3"
 
 	"github.com/umbracle/fastrlp"

@@ -1,7 +1,7 @@
 package proto
 
 import (
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 	"google.golang.org/protobuf/proto"
 )
 

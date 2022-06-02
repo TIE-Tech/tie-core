@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/common/hex"
 )
 
 func ParseUint64orHex(val *string) (uint64, error) {

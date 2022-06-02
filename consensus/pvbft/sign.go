@@ -4,12 +4,12 @@ import (
 	"crypto/ecdsa"
 	"errors"
 	"fmt"
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/common/crypto/keccak"
-	"github.com/tie-core/common/crypto/vrf"
-	"github.com/tie-core/common/hex"
-	"github.com/tie-core/consensus/pvbft/proto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/common/crypto/vrf"
+	"github.com/TIE-Tech/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/umbracle/fastrlp"
 )
 

@@ -5,18 +5,18 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	params2 "github.com/tie-core/params"
+	params2 "github.com/TIE-Tech/tie-core/params"
 	"io/ioutil"
 	"os"
 	"strconv"
 	"strings"
 	"time"
 
+	"github.com/TIE-Tech/tie-core/common/common"
+	helperFlags "github.com/TIE-Tech/tie-core/common/flags"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/mitchellh/cli"
 	"github.com/ryanuber/columnize"
-	"github.com/tie-core/common/common"
-	helperFlags "github.com/tie-core/common/flags"
-	"github.com/tie-core/types"
 )
 
 const (

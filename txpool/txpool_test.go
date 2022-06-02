@@ -2,18 +2,18 @@ package txpool
 
 import (
 	"crypto/rand"
-	"github.com/tie-core/metrics"
-	"github.com/tie-core/params"
-	"github.com/tie-core/state"
+	"github.com/TIE-Tech/tie-core/metrics"
+	"github.com/TIE-Tech/tie-core/params"
+	"github.com/TIE-Tech/tie-core/state"
 	"math/big"
 	"testing"
 	"time"
 
+	"github.com/TIE-Tech/tie-core/common/tests"
+	"github.com/TIE-Tech/tie-core/txpool/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/common/tests"
-	"github.com/tie-core/txpool/proto"
-	"github.com/tie-core/types"
 )
 
 const (

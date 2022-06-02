@@ -2,16 +2,16 @@
 package state
 
 import (
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/common/crypto/keccak"
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/params"
 	"math/big"
 
 	iradix "github.com/hashicorp/go-immutable-radix"
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/tie-core/tievm/evm"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/tievm/evm"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 var emptyStateHash = types.StringToHash("0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421")

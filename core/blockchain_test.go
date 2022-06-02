@@ -3,15 +3,15 @@ package blockchain
 import (
 	"errors"
 	"fmt"
-	"github.com/tie-core/params"
-	"github.com/tie-core/storage"
-	"github.com/tie-core/storage/memory"
+	"github.com/TIE-Tech/tie-core/params"
+	"github.com/TIE-Tech/tie-core/storage"
+	"github.com/TIE-Tech/tie-core/storage/memory"
 	"math/big"
 	"reflect"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/types"
 )
 
 func TestGenesis(t *testing.T) {

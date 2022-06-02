@@ -8,11 +8,11 @@ import (
 	"os"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/common/progress"
+	"github.com/TIE-Tech/tie-core/core"
+	"github.com/TIE-Tech/tie-core/syncer"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/common/progress"
-	"github.com/tie-core/core"
-	"github.com/tie-core/syncer"
-	"github.com/tie-core/types"
 )
 
 var (

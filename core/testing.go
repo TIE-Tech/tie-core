@@ -2,15 +2,15 @@ package blockchain
 
 import (
 	"fmt"
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/params"
 	"math/big"
 	"testing"
 
-	"github.com/tie-core/state"
-	itrie "github.com/tie-core/state/trie"
+	"github.com/TIE-Tech/tie-core/state"
+	itrie "github.com/TIE-Tech/tie-core/state/trie"
 
-	"github.com/tie-core/types"
-	"github.com/tie-core/types/calcroot"
+	"github.com/TIE-Tech/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types/calcroot"
 )
 
 var (

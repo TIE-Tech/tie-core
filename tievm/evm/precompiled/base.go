@@ -2,9 +2,9 @@ package precompiled
 
 import (
 	"crypto/sha256"
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/common/crypto/keccak"
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/params"
 	"math/big"
 
 	"golang.org/x/crypto/ripemd160" //nolint:staticcheck

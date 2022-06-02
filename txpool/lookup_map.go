@@ -3,7 +3,7 @@ package txpool
 import (
 	"sync"
 
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 // Lookup map used to find transactions present in the pool

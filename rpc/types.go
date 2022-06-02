@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tie-core/common/hex"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 // For union type of transaction and types.Hash

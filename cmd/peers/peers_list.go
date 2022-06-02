@@ -5,8 +5,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tie-core/cmd/helper"
-	"github.com/tie-core/server/proto"
+	"github.com/TIE-Tech/tie-core/cmd/helper"
+	"github.com/TIE-Tech/tie-core/server/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

@@ -1,12 +1,12 @@
 package state
 
 import (
-	"github.com/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/common/crypto"
 	"math/big"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/types"
 )
 
 func TestFrontierSigner(t *testing.T) {

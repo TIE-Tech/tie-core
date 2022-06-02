@@ -2,18 +2,18 @@ package genesis
 
 import (
 	"fmt"
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/contracts/staking"
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/contracts/staking"
+	"github.com/TIE-Tech/tie-core/params"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
 
-	"github.com/tie-core/cmd/helper"
-	helperFlags "github.com/tie-core/common/flags"
-	"github.com/tie-core/consensus/pvbft"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/cmd/helper"
+	helperFlags "github.com/TIE-Tech/tie-core/common/flags"
+	"github.com/TIE-Tech/tie-core/consensus/pvbft"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 const (

@@ -1,8 +1,8 @@
 package pvbft
 
 import (
-	"github.com/tie-core/common/crypto/keccak"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/umbracle/fastrlp"
 )
 

@@ -1,6 +1,6 @@
 package proto
 
-import "github.com/tie-core/types"
+import "github.com/TIE-Tech/tie-core/types"
 
 // DecodeHashes decode to types Hash in the request
 func (h *HashRequest) DecodeHashes() ([]types.Hash, error) {

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/tie-core/cmd/helper"
-	txpoolOp "github.com/tie-core/txpool/proto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/cmd/helper"
+	txpoolOp "github.com/TIE-Tech/tie-core/txpool/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	any "google.golang.org/protobuf/types/known/anypb"
 )
 

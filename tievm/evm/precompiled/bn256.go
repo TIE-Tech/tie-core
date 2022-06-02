@@ -2,7 +2,7 @@ package precompiled
 
 import (
 	"fmt"
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/params"
 	"math/big"
 
 	bn256 "github.com/umbracle/go-eth-bn256"

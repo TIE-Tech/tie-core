@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/tie-core/common/crypto/vrf"
-	"github.com/tie-core/contracts/staking"
-	"github.com/tie-core/state"
-	"github.com/tie-core/types"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
+	"github.com/TIE-Tech/tie-core/common/crypto/vrf"
+	"github.com/TIE-Tech/tie-core/contracts/staking"
+	"github.com/TIE-Tech/tie-core/state"
+	"github.com/TIE-Tech/tie-core/types"
 	"math/big"
 )
 

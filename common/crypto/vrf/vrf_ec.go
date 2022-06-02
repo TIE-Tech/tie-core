@@ -9,7 +9,7 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 	"errors"
-	"github.com/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/common/crypto"
 	"hash"
 	"math/big"
 )

@@ -4,8 +4,8 @@ package precompiled
 import (
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/common/hex"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/common/hex"
 )
 
 type precompiledTest struct {

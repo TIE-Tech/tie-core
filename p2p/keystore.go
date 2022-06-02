@@ -2,7 +2,7 @@ package p2p
 
 import (
 	"encoding/hex"
-	"github.com/tie-core/core/nodekey"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
 
 	"github.com/libp2p/go-libp2p-core/crypto"
 )

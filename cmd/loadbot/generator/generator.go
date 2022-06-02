@@ -3,7 +3,7 @@ package generator
 import (
 	"crypto/ecdsa"
 	"encoding/json"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 	"io/ioutil"
 	"math/big"
 )

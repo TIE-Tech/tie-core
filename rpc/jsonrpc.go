@@ -2,7 +2,7 @@ package rpc
 
 import (
 	"fmt"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
 	"io/ioutil"
 	"net"
 	"net/http"

@@ -2,9 +2,9 @@ package secrets
 
 import (
 	"fmt"
-	"github.com/tie-core/core/nodekey"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
 
-	"github.com/tie-core/cmd/helper"
+	"github.com/TIE-Tech/tie-core/cmd/helper"
 )
 
 // SecretsGenerate is the command to generate a secrets manager configuration

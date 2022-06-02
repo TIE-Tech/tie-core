@@ -1,7 +1,7 @@
 package storage
 
 import (
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/umbracle/fastrlp"
 )
 

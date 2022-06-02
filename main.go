@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/TIE-Tech/tie-core/cmd/util"
 	"github.com/mitchellh/cli"
-	"github.com/tie-core/cmd/util"
 )
 
 func main() {

@@ -4,17 +4,17 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/tie-core/core/nodekey"
-	"github.com/tie-core/params"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
+	"github.com/TIE-Tech/tie-core/params"
 	"io/ioutil"
 	"net"
 	"strings"
 
+	helperFlags "github.com/TIE-Tech/tie-core/common/flags"
+	"github.com/TIE-Tech/tie-core/server"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/hashicorp/hcl"
 	"github.com/imdario/mergo"
-	helperFlags "github.com/tie-core/common/flags"
-	"github.com/tie-core/server"
-	"github.com/tie-core/types"
 )
 
 // Config defines the server configuration params

@@ -2,15 +2,15 @@ package local
 
 import (
 	"encoding/hex"
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/core/nodekey"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
 	"io/ioutil"
 	"os"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/common/common"
 	libp2pCrypto "github.com/libp2p/go-libp2p-core/crypto"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/common/common"
 )
 
 func TestLocalSecretsManagerFactory(t *testing.T) {

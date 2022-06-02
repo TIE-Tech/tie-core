@@ -3,12 +3,12 @@ package state
 import (
 	"crypto/ecdsa"
 	"fmt"
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
 	"math/big"
 	"math/bits"
 
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/umbracle/fastrlp"
 )
 

@@ -1,12 +1,12 @@
 package server
 
 import (
-	"github.com/tie-core/core/nodekey"
-	"github.com/tie-core/params"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
+	"github.com/TIE-Tech/tie-core/params"
+	"github.com/TIE-Tech/tie-core/types"
 	"net"
 
-	"github.com/tie-core/p2p"
+	"github.com/TIE-Tech/tie-core/p2p"
 )
 
 // Config is used to parametrize the minimal client

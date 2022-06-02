@@ -2,8 +2,8 @@ package pvbft
 
 import (
 	"encoding/json"
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 // SignVRF

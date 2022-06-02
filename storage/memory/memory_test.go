@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/tie-core/storage"
+	"github.com/TIE-Tech/tie-core/storage"
 	"testing"
 )
 

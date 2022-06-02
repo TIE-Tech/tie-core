@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/common/hex"
+	"github.com/TIE-Tech/tie-core/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/common/hex"
-	"github.com/tie-core/types"
 )
 
 type MockStorage func(t *testing.T) (Storage, func())

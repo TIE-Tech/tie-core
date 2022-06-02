@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tie-core/consensus/pvbft/proto"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
+	"github.com/TIE-Tech/tie-core/types"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

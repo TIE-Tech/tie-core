@@ -2,9 +2,9 @@ package rpc
 
 import (
 	"errors"
-	"github.com/tie-core/core"
-	"github.com/tie-core/state"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/core"
+	"github.com/TIE-Tech/tie-core/state"
+	"github.com/TIE-Tech/tie-core/types"
 	"math/big"
 	"sync"
 )

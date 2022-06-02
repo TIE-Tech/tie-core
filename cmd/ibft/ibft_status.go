@@ -5,8 +5,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tie-core/cmd/helper"
-	ibftOp "github.com/tie-core/consensus/pvbft/proto"
+	"github.com/TIE-Tech/tie-core/cmd/helper"
+	ibftOp "github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

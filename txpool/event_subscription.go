@@ -1,7 +1,7 @@
 package txpool
 
 import (
-	"github.com/tie-core/txpool/proto"
+	"github.com/TIE-Tech/tie-core/txpool/proto"
 )
 
 type subscriptionID int32

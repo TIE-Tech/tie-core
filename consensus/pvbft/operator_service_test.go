@@ -2,13 +2,13 @@ package pvbft
 
 import (
 	"context"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 	"testing"
 
+	"github.com/TIE-Tech/tie-core/consensus"
+	"github.com/TIE-Tech/tie-core/consensus/pvbft/proto"
+	"github.com/TIE-Tech/tie-core/core"
 	"github.com/stretchr/testify/assert"
-	"github.com/tie-core/consensus"
-	"github.com/tie-core/consensus/pvbft/proto"
-	"github.com/tie-core/core"
 )
 
 func TestOperator_GetNextCandidate(t *testing.T) {

@@ -3,8 +3,8 @@ package hashicorpvault
 import (
 	"errors"
 	"fmt"
-	"github.com/tie-core/core/nodekey"
-	"github.com/tietemp/go-logger"
+	"github.com/TIE-Tech/go-logger"
+	"github.com/TIE-Tech/tie-core/core/nodekey"
 
 	vault "github.com/hashicorp/vault/api"
 )

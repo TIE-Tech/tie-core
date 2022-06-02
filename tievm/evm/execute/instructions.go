@@ -4,14 +4,14 @@ package execute
 import (
 	"errors"
 	"fmt"
-	"github.com/tie-core/common/crypto"
-	"github.com/tie-core/common/crypto/keccak"
+	"github.com/TIE-Tech/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/common/crypto/keccak"
 	"math/big"
 	"math/bits"
 	"sync"
 
-	"github.com/tie-core/tievm/evm"
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/tievm/evm"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 type instruction func(c *state)

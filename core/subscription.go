@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 type void struct{}

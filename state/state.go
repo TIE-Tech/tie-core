@@ -3,13 +3,13 @@ package state
 import (
 	"bytes"
 	"fmt"
-	"github.com/tie-core/common/crypto"
+	"github.com/TIE-Tech/tie-core/common/crypto"
 	"math/big"
 
 	iradix "github.com/hashicorp/go-immutable-radix"
 	"github.com/umbracle/fastrlp"
 
-	"github.com/tie-core/types"
+	"github.com/TIE-Tech/tie-core/types"
 )
 
 type State interface {
